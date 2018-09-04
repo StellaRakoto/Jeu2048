@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "courier";
+    src: url("Courier_Prime.ttf");
+}
+
+body{
+    text-align : center;
+    font-family: "courier";
+    color: #474785;
+
+    background: url(background.jpeg) 0 0 repeat;
+    background-attachment: fixed;
+}
+
+#containerHaut{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.title{
+    color:  #474785;
+    margin-right: 50px;
+    font-size: 70px;
+}
+
+.score{
+    height : 50px;
+    width: 70px;
+    margin: 30px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    border: 2px solid #f6f6f6;
+    border-radius: 10px;
+    border-color: #ffd11a;
+    background: #ffe6ee;
+}
+
+#rowcount{
+    border: 2px solid #ffd11a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #ffe6ee;
+    width: 3%;
+
+}
+
+#columncount{
+    border: 2px solid #ffd11a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #ffe6ee;
+    width: 3%;
+}
+
+#create{
+    border: 2px solid #ffd11a;
+    border-radius: 4px;
+    background: #ffe6ee;
+    width: 5%;
+}
+
+table{
+    
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid;
+    border-color: #ffd11a;
+    border-collapse: collapse;
+    background-color: #ffe6ee;
+
+}
+
+td{
+    width: 100px;
+    height: 85px;
+    border: 2px solid #f6f6f6;
+    border-radius: 10px;
+    border-color: #ffd11a;
+
+    font-size: 30px;
+    font-weight: bold;
+        
+}

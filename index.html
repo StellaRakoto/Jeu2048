@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AJAX/JQuery 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="2048.js"></script>
+        <script>
+            $(function(){
+                $("div").jeu2048();
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="containerHaut">
+            <h1 class="title" >2048</h1> 
+            <div class="score"></div>
+        </div>
+        
+
+        ROW COUNT:<input type="text" id="rowcount" />
+        COLUMN COUNT: <input type="text" id="columncount" />
+        <input id="create" type="button" value=" Play " />
+
+        <p>
+            </br>
+                <div class="genereJeu"></div> 
+            </br>
+        </p>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal"></div>
+            
+    </body>
+</html>
+
